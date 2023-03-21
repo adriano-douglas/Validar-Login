@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5271E9;
+}
+
+body {
+    background: #5271E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 450px;
+    padding: 30px;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.container h2 {
+    font-size: 35px;
+    margin: 20px 0 40px 0;
+    text-align: center;
+}
+
+.container .campo {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.campo input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #B2B9DF;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 7px;
+    border-bottom-width: 2px;
+}
+
+.campo ::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+.campo i {
+    position: absolute;
+    font-size: 16px;
+    color: #C0BFC0;
+    top: 16px;
+    left: 8px;
+}
+
+.campo .erro {
+    color: red;
+    left: 366px;
+    display: none;
+}
+
+.campo .mensagem-erro {
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+form .url-senha {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background: #2A4BD4;
+    cursor: pointer;
+    margin: 10px 0 30px 0;
+}
+
+form .url-cadastrar {
+    text-align: center;
+    font-size: 15px;
+}
